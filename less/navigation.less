@@ -1,7 +1,10 @@
 .navBox{
-    margin-top: 2%;
+    // margin-top: 2%;
     .customDisplay(center, center);
     flex-direction: column;
+    position: fixed;
+    top: 0;
+    width: 100%;
 
     .navText{
         padding-top: 1%;
@@ -11,7 +14,7 @@
         flex-direction: column;
         background-color: @nav-border;
         border-radius: 8px;
-    }
+    } // end navText
 
     nav {
         margin: 1% 0;
@@ -32,10 +35,10 @@
 
             &:hover{
                 color: @nav-font-hover;
+                .animate();
             }
         } // end a
 
     } // end nav
-
 
 } // end navBox
