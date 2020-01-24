@@ -58,7 +58,12 @@
       }
 
       .btn {
-      }
+        .customButton();
+
+        &:hover{
+          .customButton(@btn-bg-color, @porcelain);
+        } // end hover
+      } // end btn
     }
 
     .walk-img {
