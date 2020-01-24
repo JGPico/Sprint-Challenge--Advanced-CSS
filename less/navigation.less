@@ -1,1 +1,34 @@
-// Navigation code here
+.navBox{
+    margin-top: 2%;
+    .customDisplay(center, center);
+    flex-direction: column;
+
+    .navText{
+        padding-top: 1%;
+        .customDisplay(center, center);
+        max-width: 1000px;
+        width: 100%;
+        flex-direction: column;
+        background-color: @nav-border;
+        border-radius: 8px;
+    }
+
+    nav {
+        margin: 1% 0;
+        width: 50%;
+         .customDisplay(space-evenly, center);
+         
+
+        a {
+            text-decoration: none;
+            color: @river-bend;
+        } // end a
+
+    } // end nav
+
+    img{
+        border-radius: 8px;
+    }
+
+
+} // end navBox
