@@ -17,22 +17,25 @@
         margin: 1% 0;
         width: 50%;
          .customDisplay(space-evenly, center);
+
+         @media @tablet {
+             width: 80%
+         }
          
+         @media @mobile {
+             width: 80%;
+         }
 
         a {
             text-decoration: none;
             color: @river-bend;
-            
+
             &:hover{
                 color: @nav-font-hover;
             }
         } // end a
 
     } // end nav
-
-    img{
-        border-radius: 8px;
-    }
 
 
 } // end navBox
